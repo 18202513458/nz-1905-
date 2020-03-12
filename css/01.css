@@ -5,7 +5,82 @@
 
 .header {
     border: 2px solid red;
-    width: 800px;
-    height: 100px;
+    width: 1079px;
+    height: 122px;
     margin: auto;
+}
+
+.header img {
+    margin-top: 60px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+#youhead {
+    width: 415px;
+    height: 122px;
+    border: 2px solid purole;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+#youhead li {
+    margin-top: 90px;
+}
+
+.icon-zhengban {
+    font-size: 32px;
+    color: red;
+}
+
+.content {
+    width: 1079px;
+    height: 620px;
+    border: 2px solid steelblue;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zuomain {
+    width: 500px;
+    height: 620px;
+    border: 2px solid steelblue;
+}
+
+.main {
+    width: 500px;
+    height: 100px;
+    border: 2px solid steelblue;
+    padding: 60px 42px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.damain {
+    width: 500px;
+    height: 620px;
+    border: 2px solid steelblue;
+}
+
+.ipt {
+    border: 2px solid #E6E6E6;
+    width: 400px;
+    height: 30px;
+    margin-left: 50px;
+    color: #757575;
 }
